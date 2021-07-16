@@ -1,0 +1,7 @@
+DERANGE:
+Unlike the function sample(n), which takes in a natural number and creates a random ordering of the numbers 1 through n, the derange function ensures that *all* numbers are shuffled so that no number is left unshuffled.
+i.e., there is no possibility to get the numbers 1 through n in order when using the derange function where as there is a possibility with the sample function.
+
+NICEPLOT:
+Since it is a hassle to create plots with multiple lines in one graph, nicePlot takes in a dataframe with multiple columns to create a plot for us. 
+This function also takes in a color parameter so that the user can select a color scheme when displaying the graph.
